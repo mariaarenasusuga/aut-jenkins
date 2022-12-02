@@ -21,8 +21,6 @@ services:
  load-balancer:
   container_name: load-balancer
   image: mariaarenas/asesoria-academica-micro-load-balancer:1.0.0
-  build:
-   context: ./load-balancer
   ports:
    - "6022:80"
   networks:

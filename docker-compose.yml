@@ -19,7 +19,7 @@ services:
   environment:
    HOST: asesoria-academica-micro02   
  load-balancer:
-  container_name: load-balancer
+  container_name: load-balancer-2
   image: mariaarenas/asesoria-academica-micro-load-balancer:1.0.0
   ports:
    - "6022:80"

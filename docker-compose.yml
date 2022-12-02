@@ -24,7 +24,7 @@ services:
   build:
    context: ./load-balancer
   ports:
-   - "6014:80"
+   - "6021:80"
   networks:
    - ase-acad
   depends_on:
